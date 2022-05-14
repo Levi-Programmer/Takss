@@ -80,7 +80,7 @@ const deleteTask = async (req, res, next) => {
 }
 
 
-//DELETE (empty tasks)
+//DELETE (empty tasks) or (vaciar tareas)
 
 const empty_tasks = async (req, res, next) => {
     
@@ -91,6 +91,8 @@ const empty_tasks = async (req, res, next) => {
         next(error)
     }
 }
+
+
 
 //PUT 
 

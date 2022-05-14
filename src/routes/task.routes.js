@@ -20,7 +20,7 @@ router.post('/tasks', createTask);
 
 router.delete('/tasks/:id', deleteTask);
 
-router.delete('/tasks', empty_tasks)
+router.delete('/tasks', empty_tasks) 
 
 //PUT
 
